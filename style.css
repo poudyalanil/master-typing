@@ -1,0 +1,25 @@
+:root {
+    --input-padding-x: 1.5rem;
+    --input-padding-y: .75rem;
+  }
+  
+  body {
+    background: rgb(0,36,33);
+    background: radial-gradient(circle, rgba(0,36,33,1) 0%, rgba(158,232,227,1) 100%);
+  }
+  
+  .main{
+      background-color: white;
+      z-index: 2;
+      margin-top: 15vh;
+      box-shadow: 15px grey;
+      border-radius: 10px; 
+      margin-right:50px ;
+   display: inline-block;
+   padding: 50px 125px 50px 125px;
+  }
+  #result{
+      color: green;
+      text-decoration: underline;
+      font-weight: 500;
+  }
